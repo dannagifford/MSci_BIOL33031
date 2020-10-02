@@ -159,9 +159,12 @@ In part two of this workshop we will explore Multiple Regression in the context 
 &nbsp;&nbsp;
 
 # Workshop 4
+
+In this workshop we will cover Analysis of Variance (ANOVA), Analysis of Covariance (ANCOVA), and show how they are both special cases of the General Linear Model.
+
 ## ANOVA Part 1
 
-In this workshop we will explore Analysis of Variance (ANOVA) in the context of model building in R for between participants designs, repeated measures designs, and factorial designs. You will learn how to use the {afex} package for building models with Type III Sums of Squares, and the {emmeans} package to conduct follow up tests to explore main effects and interactions.
+In part 1 we will explore Analysis of Variance (ANOVA) in the context of model building in R for between participants designs, repeated measures designs, and factorial designs. You will learn how to use the {afex} package for building models with Type III Sums of Squares, and the {emmeans} package to conduct follow up tests to explore main effects and interactions.
 
 <center>
 
@@ -175,10 +178,9 @@ In this workshop we will explore Analysis of Variance (ANOVA) in the context of 
 
 &nbsp;&nbsp;
 
-# Workshop 9
 ## ANOVA Part 2
 
-In this workshop we will build on Workshop 7 to explore Analysis of Covariance (ANCOVA). In this workshop we will also examine ANOVA and ANCOVA as special cases of regression and see how we can build both via a linear model. By then doing this yourselves, you wil hopefully be convinced that ANOVA and regression are really the same thing.
+In part 2 we will explore Analysis of Covariance (ANCOVA). In this workshop we will also examine ANOVA and ANCOVA as special cases of regression and see how we can build both via a linear model. By then doing this yourselves, you wil hopefully be convinced that ANOVA and regression are really the same thing.
 
 <center>
 
@@ -191,6 +193,8 @@ In this workshop we will build on Workshop 7 to explore Analysis of Covariance (
 </center>
 
 &nbsp;&nbsp;
+
+
 
 # Additional Workshop
 ## R Markdown

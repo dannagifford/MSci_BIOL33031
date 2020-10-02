@@ -29,19 +29,20 @@ Click on the video below for a message from me and information about how this un
 
 &nbsp;&nbsp;
 
-As well as being able to contact me via [email](mailto:drandrewjstewart@gmail.com) you can also contact me via our dedicated Slack channel. The details on how to join our Slack channel can be found on Blackboard. You can install the Slack app on your computer or phone - I recommend you do this as interacting with Slack via the app is really great. 
+You can speak to me in one of the timetabled Zoom sessions (the details of those are on Blackboard) or via a personal meeting request - just ping me via email to request that. Additionally, you can follow me on [Twitter](https://twitter.com/ajstewart_lang?lang=en) where you'll see me tweet and re-tweet lots of Open Research and R content.
 
-You can speak to me in one of the timetabled Zoom sessions (the details of those are on Blackboard) or via a personal meeting request - just ping me via email or Slack to request that. Additionally, you can follow me on [Twitter](https://twitter.com/ajstewart_lang?lang=en) where you'll see me tweet and re-tweet lots of Open Research and R content.
-
-There are two assignments associated with this unit. The full details of these (plus hand in dates) can be found on the Blackboard page for this Unit.
+There is one assignment associated with this unit. The full details of this (plus hand in date) can be found on the Blackboard page for this Unit.
 
 &nbsp; &nbsp;  
 &nbsp;&nbsp;
 
 # Workshop 1
+
+There are two parts to this workshop. The first is on Open Reserch and Reproducibility, the second on Starting with R and RStudio Desktop.
+
 ## Open Research and Reproducibility
 
-In this workshop I will first introduce you to the key concepts in open research, and talk about the so-called "replication crisis" in the Psychological, Biomedical, and Life Sciences that has resulted in the Open Research movement I will also discuss the importance of adopting reproducible research practices in your own research, and provide an introduction to various tools and processes you can incorporate into your own research workflows that will allow you to conduct reproducible research. To go to the first part of the workshop, just click on the image below.
+In this first part of Workshop 1, I will introduce you to the key concepts in open research, and talk about the so-called "replication crisis" in the Psychological, Biomedical, and Life Sciences that has resulted in the Open Research movement I will also discuss the importance of adopting reproducible research practices in your own research, and provide an introduction to various tools and processes you can incorporate into your own research workflows that will allow you to conduct reproducible research. To go to the first part of the workshop, just click on the image below.
 
 <center>
 
@@ -53,40 +54,9 @@ In this workshop I will first introduce you to the key concepts in open research
 
 </center>
 
-## Experimental Power
-
-The second part of this workshop covers experimental power (and why it is important). One of the insights revealed by the "replication crisis" is that very often research is underpowered for the effect size of interest (i.e., even if the effect is there, your experiment is unlikely to find it). Many of the issues stem from researchers not spending sufficient time considering the power aspects of their research design. In this workshop, I'll provide you with an overview of some of the issues - just click on the image below to view this second part of the workshop:
-
-<center>
-
-&nbsp;  
-
-[![](images/experimental_power.png){width=75%}](https://ajstewartlang.github.io/13_experimental_power/knitted_workshop/13_experimental_power.html)
-
-&nbsp; &nbsp;  
-
-</center>
-
-## Open Source Software
-
-The third part of the workshop involves a very brief overview of open source software, the use of which is arguably key for researchers to be able to adopt open and reproducible research workflows. To view this third part, just click on the image below.
-
-<center>
-
-&nbsp;  
-
-[![](images/open_source.png){width=75%}](https://ajstewartlang.github.io/24_open_source/knitted_workshop/24_open_source.html)
-
-&nbsp; &nbsp;  
-
-</center>
-
-&nbsp;&nbsp;
-
-# Workshop 2 
 ## Starting with R and RStudio Desktop
 
-In this workshop I'll introduce you to R (the language) and RStudio Desktop (the environment we use to interact with the language). I've also added a link to a great talk by the founder of RStudio, J.J. Alaire. At the end of the workshop I have put together a video which will show you how to run your first R script.
+In the second part of Workshop 1, I will introduce you to R (the language) and RStudio Desktop (the environment we use to interact with the language). I've also added a link to a great talk by the founder of RStudio, J.J. Alaire. At the end of the workshop I have put together a video which will show you how to run your first R script.
 
 <center>
 
@@ -100,10 +70,13 @@ In this workshop I'll introduce you to R (the language) and RStudio Desktop (the
 
 &nbsp;&nbsp;
 
-# Workshop 3
+# Workshop 2
+
+There are three parts to this workshop. The first part is on Data Wrangling, the second on Summarising Your Data, and the third on Data Visualisation.
+
 ## Data Wrangling
 
-In this workshop I will introduce you to a number of key packages known as the `Tidyverse` These packages contain a large number of functions for working with data in tidy format. By making our data wrangling reproducible (i.e., by coding it in R), we can easily re-run this stage of our analysis pipeline as new data gets added. Reproducibility of the data wrangling stage is a key part of the analysis process and often gets overlooked in terms of needing to ensure it is reproducible. There are two parts to this workshop. The first focuses on data wrangling/tidying. To go to this first part, just click on the image below.
+In the first part of Workshop 2 I will introduce you to a number of key packages known as the `Tidyverse` These packages contain a large number of functions for working with data in tidy format. By making our data wrangling reproducible (i.e., by coding it in R), we can easily re-run this stage of our analysis pipeline as new data gets added. Reproducibility of the data wrangling stage is a key part of the analysis process and often gets overlooked in terms of needing to ensure it is reproducible. To go to this first part, just click on the image below.
 
 <center>
 
@@ -133,10 +106,9 @@ Once you have completed this first part and have your R script up and running, c
 
 &nbsp;&nbsp;
 
-# Workshop 4
 ## Data Visualisation
 
-In this workshop we will explore the basics of Data Visualization using R. You'll have the opportunity to write an R script on your own computer that will generate some nice data visualisations. Just click on the image below to start.  
+In part three, we will explore the basics of Data Visualization using R. You'll have the opportunity to write an R script on your own computer that will generate some nice data visualisations. Just click on the image below to start.  
 
 <center>
 
@@ -150,10 +122,13 @@ In this workshop we will explore the basics of Data Visualization using R. You'l
 
 &nbsp;&nbsp;
 
-# Workshop 5
+# Workshop 3
+
+There are two parts to this workshop. In the first part we will examine Simple Linear Regression (where you build a linear model to predict an outcome variable on the basis of a predictor variable). In the second part we will move onto Multiple Linear Regression ((where you build a linear model to predict an outcome variable on the basis of a number of predictor variables).
+
 ## Regression Part 1
 
-In this workshop we will explore Simple Regression in the context of the General Linear Model (GLM). You will also have the opportunity to build some regression models where you predict an outcome variable on the basis of one predictor. You will also learn how to run model diagnostics to ensure you are not violating any key assumptions of regression.
+In part one of this workshop we will explore Simple Regression in the context of the General Linear Model (GLM). You will also have the opportunity to build some regression models where you predict an outcome variable on the basis of one predictor. You will also learn how to run model diagnostics to ensure you are not violating any key assumptions of regression.
 
 <center>
 
@@ -167,10 +142,9 @@ In this workshop we will explore Simple Regression in the context of the General
 
 &nbsp;&nbsp;
 
-# Workshop 6
 ## Regression Part 2
 
-In this workshop will explore Multiple Regression in the context of the General Linear Model (GLM). Multiple Regressions builds on Simple Regression, except that having one predictor (as is the case with Simple Regression) we will be dealing with multiple predictors. Again, you will have the opporunity to build some regression models and use various methods to decide which one is 'best'. You will also learn how to run model disagnostics for these models as you did in the case of Simple Regression.
+In part two of this workshop we will explore Multiple Regression in the context of the General Linear Model (GLM). Multiple Regressions builds on Simple Regression, except that having one predictor (as is the case with Simple Regression) we will be dealing with multiple predictors. Again, you will have the opporunity to build some regression models and use various methods to decide which one is 'best'. You will also learn how to run model disagnostics for these models as you did in the case of Simple Regression.
 
 <center>
 
@@ -184,24 +158,7 @@ In this workshop will explore Multiple Regression in the context of the General 
 
 &nbsp;&nbsp;
 
-# Workshop 7 
-## R Markdown
-
-In this workshop I will show you how to generate a report in `.html` format using R Markdown. Reports written using R Markdown allow you to combine narrative that you've written alongwith R code chunks, and the output associated with those code chunks all in one `knitted` document. The assignments for this unit need to be produced using R Markdown.
-
-<center>
-
-&nbsp;  
-
-[![](images/introduction_to_r_markdown.png){width=75%}](https://ajstewartlang.github.io/19_introduction_to_r_markdown/knitted_workshop/19_introduction_to_r_markdown.html)
-
-&nbsp;  
-
-</center>
-
-&nbsp;&nbsp;
-
-# Workshop 8
+# Workshop 4
 ## ANOVA Part 1
 
 In this workshop we will explore Analysis of Variance (ANOVA) in the context of model building in R for between participants designs, repeated measures designs, and factorial designs. You will learn how to use the {afex} package for building models with Type III Sums of Squares, and the {emmeans} package to conduct follow up tests to explore main effects and interactions.
@@ -234,6 +191,24 @@ In this workshop we will build on Workshop 7 to explore Analysis of Covariance (
 </center>
 
 &nbsp;&nbsp;
+
+# Additional Workshop
+## R Markdown
+
+In this workshop I will show you how to generate a report in `.html` format using R Markdown. Reports written using R Markdown allow you to combine narrative that you've written alongwith R code chunks, and the output associated with those code chunks all in one `knitted` document. The assignment for this unit need to be produced using R Markdown.
+
+<center>
+
+&nbsp;  
+
+[![](images/introduction_to_r_markdown.png){width=75%}](https://ajstewartlang.github.io/19_introduction_to_r_markdown/knitted_workshop/19_introduction_to_r_markdown.html)
+
+&nbsp;  
+
+</center>
+
+&nbsp;&nbsp;
+
 
 # Workshop 10
 

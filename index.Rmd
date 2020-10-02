@@ -194,9 +194,18 @@ In part 2 we will explore Analysis of Covariance (ANCOVA). In this workshop we w
 
 &nbsp;&nbsp;
 
+# Workshop 5
+
+## Mixed Models Part 1
+
+## Mixed Models Part 2
 
 
-# Additional Workshop
+
+# Additional Workshops
+
+The following workshops are optional and a chance simply for you to explore how to do more things in R (if you are interested). I do recommend that you go through the R Markdown Workshop as it will show you how to produce an .html file using R Markdown. You need to submit your assignment answer as an .html file.
+
 ## R Markdown
 
 In this workshop I will show you how to generate a report in `.html` format using R Markdown. Reports written using R Markdown allow you to combine narrative that you've written alongwith R code chunks, and the output associated with those code chunks all in one `knitted` document. The assignment for this unit need to be produced using R Markdown.
@@ -213,10 +222,39 @@ In this workshop I will show you how to generate a report in `.html` format usin
 
 &nbsp;&nbsp;
 
+## Experimental Power
 
-# Workshop 10
+This workshop covers experimental power (and why it is important). One of the insights revealed by the "replication crisis" is that very often research is underpowered for the effect size of interest (i.e., even if the effect is there, your experiment is unlikely to find it). Many of the issues stem from researchers not spending sufficient time considering the power aspects of their research design. In this workshop, I'll provide you with an overview of some of the issues - just click on the image below to view this:
 
-This workshop will introduce you to Binder, a tool for allowing you to reproduce your computational environment, as well as your code and data, and share all of these with a collaborator via sharing a simple web link.
+<center>
+
+&nbsp;  
+
+[![](images/experimental_power.png){width=75%}](https://ajstewartlang.github.io/13_experimental_power/knitted_workshop/13_experimental_power.html)
+
+&nbsp; &nbsp;  
+
+</center>
+
+## Open Source Software
+
+This workshop provides a very brief overview of open source software, the use of which is arguably key for researchers to be able to adopt open and reproducible research workflows. To view this third part, just click on the image below.
+
+<center>
+
+&nbsp;  
+
+[![](images/open_source.png){width=75%}](https://ajstewartlang.github.io/24_open_source/knitted_workshop/24_open_source.html)
+
+&nbsp; &nbsp;  
+
+</center>
+
+&nbsp;&nbsp;
+
+## Binder
+
+This workshop will introduce you to Binder, a tool for allowing you to reproduce your computational environment, as well as your code and data, and share all of these with a collaborator via a simple web link.
 
 <center>
 
@@ -229,6 +267,12 @@ This workshop will introduce you to Binder, a tool for allowing you to reproduce
 </center>
 
 &nbsp;&nbsp;
+
+## Data Simulation
+
+## Writing Functions
+
+## Drake for Reproducible Workflows
 
 ## Technical Details
 All of the material in this workshop was created using open source where possible using an [Entroware Apollo laptop](https://www.entroware.com/store/) running [GNU/Linux distro Ubuntu 20.04 LTS (Focal Fossa)](https://releases.ubuntu.com/20.04/). The audio was captured with a [Fifine USB Podcasting microphone](https://www.amazon.co.uk/Condenser-Microphone-Recording-Interface-Power-K669/dp/B01N034RTC/ref=sr_1_1_sspa?crid=141Z8ED4VGCVD&dchild=1&keywords=fifine+usb+podcast+condenser+microphone&qid=1594989611&sprefix=fifne+usb%2Caps%2C162&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFFMzAxOE5DUDJIREwmZW5jcnlwdGVkSWQ9QTA4MzA2NjIxVU40MlhNMFNCTDhWJmVuY3J5cHRlZEFkSWQ9QTA5NDI2OTQxOFY0R002UVJBS1AzJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==) and the video with a [Razer Kiyo webcam](https://www.amazon.co.uk/Razer-Streaming-Adjustable-Brightness-Microphone/dp/B076QK6489/ref=sr_1_3?dchild=1&keywords=razer+kiyo&qid=1594989677&sr=8-3). The audio and video were recorded using [Open Broadcast Software](https://obsproject.com/) and edited using [Shotcut](https://shotcut.org/). The R code was written using [R 3.6.3](https://www.r-project.org/), and run in the [RStudio Desktop IDE](https://rstudio.com/products/rstudio/download/) version 1.3.959. Ubuntu 20.04 LTS (Focal Fossa), OBS, Shotcut, R, and RStudio Desktop are all [open source](https://en.wikipedia.org/wiki/Open-source_software). 

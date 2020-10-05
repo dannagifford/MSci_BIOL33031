@@ -200,15 +200,9 @@ In part 2 we will explore Analysis of Covariance (ANCOVA). In this workshop we w
 
 ## Mixed Models Part 2
 
-
-
-# Additional Workshops
-
-The following workshops are optional and a chance simply for you to explore how to do more things in R (if you are interested). I do recommend that you go through the R Markdown Workshop as it will show you how to produce an .html file using R Markdown. You need to submit your assignment answer as an .html file.
-
 ## R Markdown
 
-In this workshop I will show you how to generate a report in `.html` format using R Markdown. Reports written using R Markdown allow you to combine narrative that you've written alongwith R code chunks, and the output associated with those code chunks all in one `knitted` document. The assignment for this unit need to be produced using R Markdown.
+In the final part of this workshop I will show you how to generate a report in `.html` format using R Markdown. Reports written using R Markdown allow you to combine narrative that you've written alongside R code chunks, and the output associated with those code chunks all in one `knitted` document. The assignment for this unit need to be produced using R Markdown and you need to submit the `.html` file you generate using R Markdown via Blackboard.
 
 <center>
 
@@ -221,6 +215,13 @@ In this workshop I will show you how to generate a report in `.html` format usin
 </center>
 
 &nbsp;&nbsp;
+
+
+
+# Additional Workshops
+
+The following workshops are optional and a chance simply for you to explore how to do more things in R (if you are interested). I do recommend that you go through the R Markdown Workshop as it will show you how to produce an .html file using R Markdown. You need to submit your assignment answer as an .html file.
+
 
 ## Experimental Power
 

@@ -13,7 +13,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-&nbsp;&nbsp;
+&nbsp; 
 
 Welcome to the Reproducible Data Science unit BIOL33031. The following video (as with all the others in this unit) is best viewed in fullscreen mode at 1080 resolution. I have recorded the audio with a podcasting microphone, so it's best listened to with headphones. YouTube generates subtitles automatically, so please turn those in if you'd find them useful. They are *fairly* accurate.
 

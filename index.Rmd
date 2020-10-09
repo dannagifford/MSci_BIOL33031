@@ -23,7 +23,7 @@ Click on the video below for a message from me and information about how this un
 
 <center>
 
-<iframe width="560" height="315" src="https://youtube.com/embed/Dm9-31EcD3U" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://youtube.com/embed/" frameborder="0" allowfullscreen></iframe>
 
 </center>
 
@@ -34,7 +34,6 @@ You can speak to me in one of the timetabled Zoom sessions (the details of those
 There is one assignment associated with this unit. The full details of this (plus hand in date) can be found on the Blackboard page for this Unit.
 
 &nbsp; &nbsp;  
-&nbsp;&nbsp;
 
 # Workshop 1
 

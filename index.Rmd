@@ -243,11 +243,9 @@ In the final part of this workshop I will show you how to generate a report in `
 &nbsp;&nbsp;
 
 
-
 # Additional Workshops
 
 The following workshops are optional and a chance simply for you to explore how to do more things in R (if you are interested). I do recommend that you go through the R Markdown Workshop as it will show you how to produce an .html file using R Markdown. You need to submit your assignment answer as an .html file.
-
 
 ## Experimental Power
 

@@ -35,13 +35,13 @@ There is one assignment associated with this unit. The full details of this (plu
 
 &nbsp; &nbsp;  
 
-# Workshop 1
+# Week 1
 
-There are two parts to this workshop. The first is on Open Reserch and Reproducibility, the second on Starting with R and RStudio Desktop.
+There are two parts to this week's workshop. The first is on Open Reserch and Reproducibility, the second on Starting with R and RStudio Desktop.
 
 ## Open Research and Reproducibility
 
-In this first part of Workshop 1, I will introduce you to the key concepts in open research, and talk about the so-called "replication crisis" in the Psychological, Biomedical, and Life Sciences that has resulted in the Open Research movement I will also discuss the importance of adopting reproducible research practices in your own research, and provide an introduction to various tools and processes you can incorporate into your own research workflows that will allow you to conduct reproducible research. To go to the first part of the workshop, just click on the image below.
+In this first part, I will introduce you to the key concepts in open research, and talk about the so-called "replication crisis" in the Psychological, Biomedical, and Life Sciences that has resulted in the Open Research movement I will also discuss the importance of adopting reproducible research practices in your own research, and provide an introduction to various tools and processes you can incorporate into your own research workflows that will allow you to conduct reproducible research. To go to the first part, just click on the image below.
 
 <center>
 
@@ -55,7 +55,7 @@ In this first part of Workshop 1, I will introduce you to the key concepts in op
 
 ## Starting with R and RStudio Desktop
 
-In the second part of Workshop 1, I will introduce you to R (the language) and RStudio Desktop (the environment we use to interact with the language). I've also added a link to a great talk by the founder of RStudio, J.J. Alaire. At the end of the workshop I have put together a video which will show you how to run your first R script.
+In the second part, I will introduce you to R (the language) and RStudio Desktop (the environment we use to interact with the language). I've also added a link to a great talk by the founder of RStudio, J.J. Alaire. At the end I have put together a video which will show you how to run your first R script.
 
 <center>
 
@@ -69,13 +69,13 @@ In the second part of Workshop 1, I will introduce you to R (the language) and R
 
 &nbsp;&nbsp;
 
-# Workshop 2
+# Week 2
 
-There are three parts to this workshop. The first part is on Data Wrangling, the second on Summarising Your Data, and the third on Data Visualisation.
+There are three parts to this week's workshop The first part is on Data Wrangling, the second on Summarising Your Data, and the third on Data Visualisation.
 
 ## Data Wrangling
 
-In the first part of Workshop 2 I will introduce you to a number of key packages known as the `Tidyverse` These packages contain a large number of functions for working with data in tidy format. By making our data wrangling reproducible (i.e., by coding it in R), we can easily re-run this stage of our analysis pipeline as new data gets added. Reproducibility of the data wrangling stage is a key part of the analysis process and often gets overlooked in terms of needing to ensure it is reproducible. To go to this first part, just click on the image below.
+In the first part I will introduce you to a number of key packages known as the `Tidyverse` These packages contain a large number of functions for working with data in tidy format. By making our data wrangling reproducible (i.e., by coding it in R), we can easily re-run this stage of our analysis pipeline as new data gets added. Reproducibility of the data wrangling stage is a key part of the analysis process and often gets overlooked in terms of needing to ensure it is reproducible. To go to this first part, just click on the image below.
 
 <center>
 
@@ -121,13 +121,13 @@ In part three, we will explore the basics of Data Visualization using R. You'll 
 
 &nbsp;&nbsp;
 
-# Workshop 3
+# Week 3
 
-There are two parts to this workshop. In the first part we will examine Simple Linear Regression (where you build a linear model to predict an outcome variable on the basis of a predictor variable). In the second part we will move onto Multiple Linear Regression ((where you build a linear model to predict an outcome variable on the basis of a number of predictor variables).
+There are two parts to this week's workshop. In the first part we will examine Simple Linear Regression (where you build a linear model to predict an outcome variable on the basis of a predictor variable). In the second part we will move onto Multiple Linear Regression ((where you build a linear model to predict an outcome variable on the basis of a number of predictor variables).
 
 ## Regression Part 1
 
-In part one of this workshop we will explore Simple Regression in the context of the General Linear Model (GLM). You will also have the opportunity to build some regression models where you predict an outcome variable on the basis of one predictor. You will also learn how to run model diagnostics to ensure you are not violating any key assumptions of regression.
+In part one we will explore Simple Regression in the context of the General Linear Model (GLM). You will also have the opportunity to build some regression models where you predict an outcome variable on the basis of one predictor. You will also learn how to run model diagnostics to ensure you are not violating any key assumptions of regression.
 
 <center>
 
@@ -143,7 +143,7 @@ In part one of this workshop we will explore Simple Regression in the context of
 
 ## Regression Part 2
 
-In part two of this workshop we will explore Multiple Regression in the context of the General Linear Model (GLM). Multiple Regressions builds on Simple Regression, except that having one predictor (as is the case with Simple Regression) we will be dealing with multiple predictors. Again, you will have the opporunity to build some regression models and use various methods to decide which one is 'best'. You will also learn how to run model disagnostics for these models as you did in the case of Simple Regression.
+In part two we will explore Multiple Regression in the context of the General Linear Model (GLM). Multiple Regressions builds on Simple Regression, except that having one predictor (as is the case with Simple Regression) we will be dealing with multiple predictors. Again, you will have the opporunity to build some regression models and use various methods to decide which one is 'best'. You will also learn how to run model disagnostics for these models as you did in the case of Simple Regression.
 
 <center>
 
@@ -157,13 +157,13 @@ In part two of this workshop we will explore Multiple Regression in the context 
 
 &nbsp;&nbsp;
 
-# Workshop 4
+# Week 4
 
-In this workshop we will cover Analysis of Variance (ANOVA), Analysis of Covariance (ANCOVA), and show how they are both special cases of the General Linear Model.
+This week we will cover Analysis of Variance (ANOVA), Analysis of Covariance (ANCOVA), and show how they are both special cases of the General Linear Model.
 
 ## ANOVA Part 1
 
-In part 1 we will explore Analysis of Variance (ANOVA) in the context of model building in R for between participants designs, repeated measures designs, and factorial designs. You will learn how to use the {afex} package for building models with Type III Sums of Squares, and the {emmeans} package to conduct follow up tests to explore main effects and interactions.
+In part one we will explore Analysis of Variance (ANOVA) in the context of model building in R for between participants designs, repeated measures designs, and factorial designs. You will learn how to use the `{afex}` package for building models with Type III Sums of Squares, and the `{emmeans}` package to conduct follow up tests to explore main effects and interactions.
 
 <center>
 
@@ -179,7 +179,7 @@ In part 1 we will explore Analysis of Variance (ANOVA) in the context of model b
 
 ## ANOVA Part 2
 
-In part 2 we will explore Analysis of Covariance (ANCOVA). In this workshop we will also examine ANOVA and ANCOVA as special cases of regression and see how we can build both via a linear model. By then doing this yourselves, you wil hopefully be convinced that ANOVA and regression are really the same thing.
+In part two we will explore Analysis of Covariance (ANCOVA). We will also examine ANOVA and ANCOVA as special cases of regression and see how we can build both via a linear model. By then doing this yourselves, you wil hopefully be convinced that ANOVA and regression are really the same thing.
 
 <center>
 
@@ -193,11 +193,13 @@ In part 2 we will explore Analysis of Covariance (ANCOVA). In this workshop we w
 
 &nbsp;&nbsp;
 
-# Workshop 5
+# Week 5
+
+There are three parts to this week's content. The first two part focus on Mixed Models, while the third focuses on using R Markdown. Your assignment for this unit needs to be created using R Markdown. You will then `knit` your R Markdown file to generate a `.html` file. It is this `.html` file that you need to submit as your assignment.
 
 ## Mixed Models Part 1
 
-In thie first part of this workshop we will see how mixed models combine aspects of linear regression (for model fitting) while circumventing the need for observations to be independent of each other. We will also examine how we model the influence of random effects in our mixed models, and see how mixed models can cope with unbalanced designs and missing data.
+In this first part we will see how mixed models combine aspects of linear regression (for model fitting) while circumventing the need for observations to be independent of each other. We will also examine how we model the influence of random effects in our mixed models, and see how mixed models can cope with unbalanced designs and missing data.
 
 <center>
 
@@ -213,7 +215,7 @@ In thie first part of this workshop we will see how mixed models combine aspects
 
 ## Mixed Models Part 2
 
-In the second part of this workshop we will examine mixed models for factorial designs, and explore how to model non-continuous dependent variables (e.g., binary and ordinal outcome variables) using the `glmer()` family of mixed models.
+In the second part we will examine mixed models for factorial designs, and explore how to model non-continuous dependent variables (e.g., binary and ordinal outcome variables) using the `glmer()` family of mixed models.
 
 <center>
 
@@ -228,7 +230,7 @@ In the second part of this workshop we will examine mixed models for factorial d
 &nbsp;&nbsp;
 
 ## R Markdown
-In the final part of this workshop I will show you how to generate a report in `.html` format using R Markdown. Reports written using R Markdown allow you to combine narrative that you've written alongside R code chunks, and the output associated with those code chunks all in one `knitted` document. The assignment for this unit need to be produced using R Markdown and you need to submit the `.html` file you generate using R Markdown via Blackboard.
+In the final part I will show you how to generate a report in `.html` format using R Markdown. Reports written using R Markdown allow you to combine narrative that you've written alongside R code chunks, and the output associated with those code chunks all in one `knitted` document. The assignment for this unit needs to be produced using R Markdown and you need to submit the `.html` file you generate using R Markdown via Blackboard.
 
 <center>
 
@@ -245,7 +247,7 @@ In the final part of this workshop I will show you how to generate a report in `
 
 # Additional Workshops
 
-The following workshops are optional and a chance simply for you to explore how to do more things in R (if you are interested). I do recommend that you go through the R Markdown Workshop as it will show you how to produce an .html file using R Markdown. You need to submit your assignment answer as an .html file.
+The following workshops are optional and a chance simply for you to explore how to do more things in R (if you are interested).
 
 ## Experimental Power
 

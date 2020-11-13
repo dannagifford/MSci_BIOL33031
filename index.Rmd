@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 &nbsp; 
 
-Welcome to the Reproducible Data Science unit BIOL33031. The following video (as with all the others in this unit) is best viewed in fullscreen mode at 1080 resolution. I have recorded the audio with a podcasting microphone, so it's best listened to with headphones. YouTube generates subtitles automatically, so please turn those in if you'd find them useful. They are *fairly* accurate.
+Welcome to the Reproducible Data Science unit BIOL33031. All the videos in these workshops are best viewed in fullscreen mode at 1080 resolution. I have recorded the audio with a podcasting microphone, so the recordings are best listened to with headphones. YouTube generates subtitles automatically, so please turn those in if you'd find them useful. They are *fairly* accurate.
 
 This unit will be run via a flipped classroom model. This means you need to go through each of the workshops **before** the associated Zoom session. So make sure you've gone through **all** of the Workshop 1 content before our first scheduled Zoom session on November 20th. Each of the 5 workshops should take you about 4 hours to complete - so give yourselves plenty of time to go through all of the content before each Friday Zoom session.
 

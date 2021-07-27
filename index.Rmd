@@ -15,15 +15,23 @@ knitr::opts_chunk$set(echo = TRUE)
 
 &nbsp; 
 
-Welcome to the Reproducible Data Science unit BIOL33031. All the videos in these workshops are best viewed in fullscreen mode at 1080 resolution. I have recorded the audio with a podcasting microphone, so the recordings are best listened to with headphones. YouTube generates subtitles automatically, so please turn those in if you'd find them useful. They are *fairly* accurate.
+Welcome to the Reproducible Data Science unit BIOL33031. All the videos in these workshops are best viewed in fullscreen mode at 1080 resolution. I have recorded the audio with a podcasting microphone, so the recordings are best listened to with headphones. YouTube generates subtitles automatically, so please turn those in if you'd find them useful. 
 
-This unit will be run via a flipped classroom model. This means you need to go through each of the workshops **before** the associated Zoom session. So make sure you've gone through **all** of the Workshop 1 content before our first scheduled Zoom session on November 20th. Each of the 5 workshops should take you about 4 hours to complete - so give yourselves plenty of time to go through all of the content before each Friday Zoom session.
+This unit will be run via a flipped classroom model. This means you need to go through each of the workshops **before** the associated Zoom session. So make sure you've gone through **all** of the Workshop 1 content before our first scheduled Zoom session. Each of the workshops should take you about 4 hours to complete - so give yourselves plenty of time to go through all of the content before each Friday Zoom session.
 
 You can speak to me in one of the timetabled Zoom sessions (the details of those will be posted on Blackboard the first week that the unit runs) or via a personal meeting request - just ping me via email to request that. Additionally, you can follow me on [Twitter](https://twitter.com/ajstewart_lang?lang=en) where you'll see me tweet and re-tweet lots of Open Research and R content.
 
 There is one assignment associated with this unit. The full details of this (plus hand in date) can be found on Blackboard.
 
-&nbsp; &nbsp;  
+&nbsp;&nbsp;
+
+<center>
+
+<iframe width="560" height="315" src="https://youtube.com/embed/lwT0FjwsQQU" data-external="1" frameborder="0" allowfullscreen></iframe>
+
+</center>
+
+&nbsp;&nbsp;
 
 # Week 1
 

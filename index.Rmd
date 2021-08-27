@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 &nbsp; 
 
-Welcome to the Reproducible Data Science unit BIOL33031. All the videos in these workshops are best viewed in fullscreen mode at 1080 resolution. I have recorded the audio with a podcasting microphone, so the recordings are best listened to with headphones. YouTube generates subtitles automatically, so please turn those in if you'd find them useful. 
+Welcome to the Reproducible Data Science unit BIOL33031. All the videos in these workshops are best viewed in fullscreen mode at 1080 resolution. I have recorded the audio with a podcasting microphone, so the recordings are best listened to with headphones. YouTube generates subtitles automatically, so please turn those on if you'd find them useful. 
 
 This unit will be run via a flipped classroom model. This means you need to go through each of the workshops **before** the associated Zoom session. So make sure you've gone through **all** of the Workshop 1 content before our first scheduled Zoom session. Each of the workshops should take you about 4 hours to complete - so give yourselves plenty of time to go through all of the content before each Friday Zoom session.
 
@@ -35,7 +35,7 @@ There is one assignment associated with this unit. The full details of this (plu
 
 # Week 1
 
-There are two parts to this week's workshop. The first is on Open Reserch and Reproducibility, the second on Starting with R and RStudio Desktop.
+There are two parts to this week's workshop. The first is on Open Reserch and Reproducibility, the second on Starting with R and RStudio Desktop. Make sure you complete both parts before the first timetabled session. 
 
 ## Open Research and Reproducibility
 
@@ -243,9 +243,7 @@ In the final part I will show you how to generate a report in `.html` format usi
 &nbsp;&nbsp;
 
 
-# Bonus Workshops
-
-The following workshops are optional and a chance simply for you to explore how to do more things in R (if you are interested) and understand a little more about the issues around experimental power. None of these workshops are needed for the assignment.
+# Week 6
 
 ## Experimental Power
 
@@ -263,7 +261,7 @@ This workshop covers experimental power (and why it is important). One of the in
 
 ## Open Source Software
 
-This workshop provides a very brief overview of open source software, the use of which is arguably key for researchers to be able to adopt open and reproducible research workflows. To view this third part, just click on the image below.
+This workshop provides a very brief overview of open source software, the use of which is arguably key for researchers to be able to adopt open and reproducible research workflows. To view this part, just click on the image below.
 
 <center>
 
@@ -279,7 +277,7 @@ This workshop provides a very brief overview of open source software, the use of
 
 ## Binder
 
-This workshop will introduce you to Binder, a tool for allowing you to reproduce your computational environment, as well as your code and data, and share all of these with a collaborator via a simple web link.
+This comontent will introduce you to Binder, a tool for allowing you to reproduce your computational environment, as well as your code and data, and share all of these with a collaborator via a simple web link.
 
 <center>
 

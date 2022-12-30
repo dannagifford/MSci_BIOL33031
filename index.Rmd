@@ -21,19 +21,9 @@ This unit will be run via a flipped classroom model. This means you need to go t
 
 There is one assignment associated with this unit. The full details of this (plus hand in date) can be found on Blackboard.
 
-&nbsp;&nbsp;
-
-<center>
-
-<iframe width="560" height="315" src="https://youtube.com/embed/lwT0FjwsQQU" data-external="1" frameborder="0" allowfullscreen></iframe>
-
-</center>
-
-&nbsp;&nbsp;
-
 # Week 1
 
-There are two parts to this week's workshop. The first is on Open Reserch and Reproducibility, the second on Starting with R and RStudio Desktop. Make sure you complete both parts before the first timetabled session. 
+There are two parts to this week's workshop. The first is on Open Research and Reproducibility, the second on Starting with R and RStudio Desktop. Make sure you complete both parts before the first timetabled session. 
 
 ## Open Research and Reproducibility
 

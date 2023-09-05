@@ -1,5 +1,5 @@
 ---
-title: "MSci Unit BIOL33031 - Reproducible Data Science"
+title: "BIOL33031 - Reproducible Data Science"
 author: ""
 date: ""
 output: 
@@ -13,17 +13,83 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-&nbsp; 
+# Unit Overview
+Welcome to the Reproducible Data Science unit BIOL33031.
 
-Welcome to the Reproducible Data Science unit BIOL33031. All the videos in these workshops are best viewed in full-screen mode at 1080 resolution. Audo was recorded with a podcasting microphone, so are best listened to with headphones. YouTube generates subtitles automatically, so please turn those on if you'd find them useful. 
+In this unit, you will acquire the skills necessary to engage in reproducible data science. You will learn how to wrangle data, create data visualizations, and model your data using the open-source data science software, R. Each session will be conducted as a combined seminar and hands-on coding workshop. You will discover how to employ a reproducible workflow to generate analyses that can be replicated. Additionally, you will gain proficiency in general computational skills such as using git and GitHub for version control, as well as Binder for constructing reproducible computational environments. Data science skills, especially proficiency in R, are highly sought after by employers in academia, industry, and business sectors. This unit will equip you with a foundational understanding of data science using R, setting the stage for further specialization, such as machine learning with R.
 
-This unit will be run via a flipped classroom model. This means you need to go through each of the workshops **before** the associated live computer cluster session. So make sure you've viewed **all** of the week's content before our first scheduled computer cluster session. You will have an opportunity to work on the activities and/or ask questions about each workshop during the live computer cluster sessions.
+## Sylabus
+This module will consist of 6 workshops - each workshop will involve a mix of seminar and hands-on programming. The six workshops are as follows:
 
-There is one assignment associated with this unit. The full details of this (plus hand in date) will be posted on Blackboard.
+1. Reproducibility and R
+2. The Linear Model (Regression)
+3. The Linear Model (ANOVA)
+4. Mixed Models
+5. Data Simulation and Advanced Data Visualisation
+6. Reproducible Computational Environments and Presentations
+
+## Unit format
+This unit will be run via a flipped classroom model. This means you need to go through each of the workshops **before** the associated live computer cluster session. So make sure you've viewed **all** of the week's content before our first scheduled computer cluster session. You will have an opportunity to work on the activities and/or ask questions about each workshop during the live computer cluster sessions.  All the videos in these workshops are best viewed in full-screen mode at 1080 resolution. Audio was recorded with a podcasting microphone, so are best listened to with headphones. YouTube generates subtitles automatically, so please turn those on if you'd find them useful. 
+
+## Aims
+The unit aims to increase your understanding of the following:
+
+* To familiarize you with the tools necessary for engaging in reproducible research and data science practices.
+* To familiarize you with the principles of Reproducibility and Open Science, including pre-registration of experiments, open data, and open analysis.
+* To familiarize you with the principles of programming and analysis in R, including linear mixed models, and the use of R Markdown to generate reproducible analyses and presentations.
+* To provide you with the experience of advanced decision-making in the application of different statistical tests to different research questions.
+* To provide you, working in small groups, with the experience of using and programming in R for reproducible data analysis.
+
+&nbsp; &nbsp;  
+
+## Intended Learning Objectives
+
+Knowledge and understanding
+
+* Demonstrate an understanding of the principles of Open Science and the need for reproducibility in research.
+* Develop an understanding of the logic underlying the use of programming and buildingstatistical models in R, and the range of circumstances appropriate for their use.
+
+Intellectual skills
+
+* Design and interpret complex statistical models using diverse approaches.
+
+Practical skills
+
+* Acquire experience of cutting edge data science methodologies for reproducible research.
+
+Transferable skills and personal qualities
+
+* Problem solving.
+* Programming.
+* Data presentation.
+* Time management.
+
+&nbsp; &nbsp;  
+
+## Recommended Reading
+Grolemund, G, & Wickham, H. (2017). R for Data Science, O’Reilly. (https://r4ds.had.co.nz)
+
+&nbsp; &nbsp;
+  
+## Employability Skills
+* Analytical skills: You will learn the fundamentals of coding and constructing statistical models in R.
+* Innovation/creativity: You will be encouraged to enhance your coding skills and apply them to novel research challenges, including the interpretation of extensive datasets.
+* Project management: You will develop the ability to create individual tasks related to data analysis and reporting, including data tidying/wrangling, data visualization, statistical modeling, and the creation of reproducible research reports using R Markdown.
+* Problem-solving: You will hone your coding abilities and devise solutions for every phase of the reproducible research process.
+* Written communication: You will produce coursework using R Markdown, which integrates code, output, and narrative to produce documents that can be reproduced.
+
+&nbsp; &nbsp;
+
+## Feedback methods
+During the hands-on coding sessions, students will receive formative feedback associatedwith each of the practical problems that they will be engaged with. There is one assignment associated with this unit. The full details of this (plus hand in date) will be posted on Blackboard.
+
+
+
+&nbsp; &nbsp;  
 
 # Week 1
 
-There are two parts to this week's workshop. The first is on Open Research and Reproducibility, the second on Starting with R and RStudio Desktop. Make sure you complete both parts before the first timetabled session. 
+There are two parts to this week's workshop. The first is on Open Research and Reproducibility, the second on Starting with R and RStudio Desktop. Please make sure you complete both parts before the first timetabled session. 
 
 ## Open Research and Reproducibility
 
@@ -280,11 +346,13 @@ This workshop will introduce you to Binder, a tool for allowing you to reproduce
 &nbsp;&nbsp;
 -->
 
-## Technical Details
-The material in this workshop were originally created using open source where possible using an [Entroware Apollo laptop](https://www.entroware.com/store/) running [GNU/Linux distro Ubuntu 20.04 LTS (Focal Fossa)](https://releases.ubuntu.com/20.04/).  The audio was captured with a [Fifine USB Podcasting microphone](https://www.amazon.co.uk/Condenser-Microphone-Recording-Interface-Power-K669/dp/B01N034RTC/ref=sr_1_1_sspa?crid=141Z8ED4VGCVD&dchild=1&keywords=fifine+usb+podcast+condenser+microphone&qid=1594989611&sprefix=fifne+usb%2Caps%2C162&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFFMzAxOE5DUDJIREwmZW5jcnlwdGVkSWQ9QTA4MzA2NjIxVU40MlhNMFNCTDhWJmVuY3J5cHRlZEFkSWQ9QTA5NDI2OTQxOFY0R002UVJBS1AzJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==) and the video with a [Razer Kiyo webcam](https://www.amazon.co.uk/Razer-Streaming-Adjustable-Brightness-Microphone/dp/B076QK6489/ref=sr_1_3?dchild=1&keywords=razer+kiyo&qid=1594989677&sr=8-3). The audio and video were recorded using [Open Broadcast Software](https://obsproject.com/) and edited using [Shotcut](https://shotcut.org/). The R code was written using [R 3.6.3](https://www.r-project.org/), and run in the [RStudio Desktop IDE](https://rstudio.com/products/rstudio/download/) version 1.3.959. Ubuntu 20.04 LTS (Focal Fossa), OBS, Shotcut, R, and RStudio Desktop are all [open source](https://en.wikipedia.org/wiki/Open-source_software). 
+# Technical Details
+Original material: The material in this workshop were originally created using open source where possible using an [Entroware Apollo laptop](https://www.entroware.com/store/) running [GNU/Linux distro Ubuntu 20.04 LTS (Focal Fossa)](https://releases.ubuntu.com/20.04/).  The audio was captured with a [Fifine USB Podcasting microphone](https://www.amazon.co.uk/Condenser-Microphone-Recording-Interface-Power-K669/dp/B01N034RTC/ref=sr_1_1_sspa?crid=141Z8ED4VGCVD&dchild=1&keywords=fifine+usb+podcast+condenser+microphone&qid=1594989611&sprefix=fifne+usb%2Caps%2C162&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFFMzAxOE5DUDJIREwmZW5jcnlwdGVkSWQ9QTA4MzA2NjIxVU40MlhNMFNCTDhWJmVuY3J5cHRlZEFkSWQ9QTA5NDI2OTQxOFY0R002UVJBS1AzJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==) and the video with a [Razer Kiyo webcam](https://www.amazon.co.uk/Razer-Streaming-Adjustable-Brightness-Microphone/dp/B076QK6489/ref=sr_1_3?dchild=1&keywords=razer+kiyo&qid=1594989677&sr=8-3). The audio and video were recorded using [Open Broadcast Software](https://obsproject.com/) and edited using [Shotcut](https://shotcut.org/). The R code was written using [R 3.6.3](https://www.r-project.org/), and run in the [RStudio Desktop IDE](https://rstudio.com/products/rstudio/download/) version 1.3.959. Ubuntu 20.04 LTS (Focal Fossa), OBS, Shotcut, R, and RStudio Desktop are all [open source](https://en.wikipedia.org/wiki/Open-source_software).
+
+Updates in 2023: The unit was updated using R 4.2.2 using Ubuntu 20.04.5 LTS (Focal Fossa).
 
 The structure for this unit was inspired by the [Sharing At Short Notice](https://rstudio.com/resources/webinars/sharing-on-short-notice-how-to-get-your-materials-online-with-r-markdown/) webinar by Alison Hill and Desirée De Leon.
 
-The repo for each workshop can be accessed via the 'Improve this Workshop' link at the bottom of each workshop page. The workshops and this website were all written using [R Markdown](https://rmarkdown.rstudio.com/) and the website is hosted on [Netlify](https://www.netlify.com/) via continuous deployment from [this GitHub repository](https://github.com/dannagifford/MSci_BIOL33031).
+The repo for each workshop can be accessed via the 'Improve this Workshop' link at the bottom of each workshop page. The workshops and this website were all written using [R Markdown](https://rmarkdown.rstudio.com/) and the website is hosted on [GitHub Pages](https://www.github.com/) via deployment from [this GitHub repository](https://github.com/dannagifford/MSci_BIOL33031), which was forked from [the original repository](https://github.com/ajstewartlang/MSci_BIOL33031).
 
 The source code for each of the Workshops above is licensed under the [MIT license](https://opensource.org/licenses/MIT), and the lecture content under [CC-BY](https://creativecommons.org/licenses/by/4.0/). 

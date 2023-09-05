@@ -13,3 +13,30 @@
 [submodule "workshops/Wk2-06_data_visualisation"]
 	path = workshops/Wk2-06_data_visualisation
 	url = https://github.com/dannagifford/Wk2-06_data_visualisation
+[submodule "workshops/Wk3-09_glm_regression_pt1"]
+	path = workshops/Wk3-09_glm_regression_pt1
+	url = https://github.com/dannagifford/Wk3-09_glm_regression_pt1
+[submodule "workshops/Wk3-10_glm_regression_pt2"]
+	path = workshops/Wk3-10_glm_regression_pt2
+	url = https://github.com/dannagifford/Wk3-10_glm_regression_pt2
+[submodule "workshops/Wk4-11_glm_anova_pt1"]
+	path = workshops/Wk4-11_glm_anova_pt1
+	url = https://github.com/dannagifford/Wk4-11_glm_anova_pt1
+[submodule "workshops/Wk4-12_glm_anova_pt2"]
+	path = workshops/Wk4-12_glm_anova_pt2
+	url = https://github.com/dannagifford/Wk4-12_glm_anova_pt2
+[submodule "workshops/Wk5-15_mixed_models_pt1"]
+	path = workshops/Wk5-15_mixed_models_pt1
+	url = https://github.com/dannagifford/Wk5-15_mixed_models_pt1
+[submodule "workshops/Wk5-16_mixed_models_pt2"]
+	path = workshops/Wk5-16_mixed_models_pt2
+	url = https://github.com/dannagifford/Wk5-16_mixed_models_pt2
+[submodule "workshops/Wk5-19_introduction_to_r_markdown"]
+	path = workshops/Wk5-19_introduction_to_r_markdown
+	url = https://github.com/dannagifford/Wk5-19_introduction_to_r_markdown
+[submodule "workshops/Wk6-13_experimental_power"]
+	path = workshops/Wk6-13_experimental_power
+	url = https://github.com/dannagifford/Wk6-13_experimental_power
+[submodule "workshops/Wk6-24_open_source"]
+	path = workshops/Wk6-24_open_source
+	url = https://github.com/dannagifford/Wk6-24_open_source

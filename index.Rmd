@@ -1,5 +1,5 @@
 ---
-title: "Welcome"
+title: "MSci Unit BIOL33031 - Reproducible Data Science"
 author: ""
 date: ""
 output: 

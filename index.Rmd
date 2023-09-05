@@ -33,7 +33,7 @@ In this first part, we will explore the key concepts in open research, and talk 
 
 &nbsp;  
 
-[![](images/open_research.png){width=75%}](../Wk1-01_open_research_and_reproducibility/knitted_workshop/01_open_research_and_reproducibility.html)
+[![](images/open_research.png){width=75%}](./Wk1-01_open_research_and_reproducibility/knitted_workshop/01_open_research_and_reproducibility.html)
 
 &nbsp; &nbsp;  
 
@@ -47,7 +47,7 @@ In the second part, you will be introduced to R (the language) and RStudio Deskt
 
 &nbsp;  
 
-[![](images/starting_with_r.png){width=75%}](../Wk1-02_starting_with_r/knitted_workshop/02_starting_with_r.html)
+[![](images/starting_with_r.png){width=75%}](./Wk1-02_starting_with_r/knitted_workshop/02_starting_with_r.html)
 
 &nbsp; &nbsp;  
 
@@ -67,7 +67,7 @@ The first part will introduce you to a number of key packages known as the `tidy
 
 &nbsp;  
 
-[![](images/data_wrangling.png){width=75%}](../Wk2-03_data_wrangling/knitted_workshop/03_data_wrangling.html)
+[![](images/data_wrangling.png){width=75%}](./Wk2-03_data_wrangling/knitted_workshop/03_data_wrangling.html)
 
 &nbsp;  
 
@@ -83,7 +83,7 @@ Once you have completed this first part and have your R script up and running, c
 
 &nbsp;  
 
-[![](images/summarising_your_data.png){width=75%}](../Wk2-04_summarising_your_data/knitted_workshop/04_summarising_your_data.html)
+[![](images/summarising_your_data.png){width=75%}](./Wk2-04_summarising_your_data/knitted_workshop/04_summarising_your_data.html)
 
 &nbsp; &nbsp;  
 
@@ -99,7 +99,7 @@ In part three, we will explore the basics of Data Visualization using R. You'll 
 
 &nbsp;  
 
-[![](images/data_vis.png){width=75%}](../Wk2-06_data_visualisation/knitted_workshop/06_data_visualisation)
+[![](images/data_vis.png){width=75%}](./Wk2-06_data_visualisation/knitted_workshop/06_data_visualisation)
 
 &nbsp;  
 
@@ -119,7 +119,7 @@ In part one we will explore Simple Regression in the context of the General Line
 
 &nbsp;  
 
-[![](images/glm_regression_pt1.png){width=75%}](../Wk3-09_glm_regression_pt1/knitted_workshop/09_glm_regression_pt1.html)
+[![](images/glm_regression_pt1.png){width=75%}](./Wk3-09_glm_regression_pt1/knitted_workshop/09_glm_regression_pt1.html)
 
 &nbsp;  
 
@@ -135,7 +135,7 @@ In part two we will explore Multiple Regression in the context of the General Li
 
 &nbsp;  
 
-[![](images/glm_regression_pt2.png){width=75%}](../Wk3-10_glm_regression_pt2/knitted_workshop/10_glm_regression_pt2.html)
+[![](images/glm_regression_pt2.png){width=75%}](./Wk3-10_glm_regression_pt2/knitted_workshop/10_glm_regression_pt2.html)
 
 &nbsp;  
 
@@ -155,7 +155,7 @@ In part one we will explore Analysis of Variance (ANOVA) in the context of model
 
 &nbsp;  
 
-[![](images/glm_anova_pt1.png){width=75%}](../Wk4-11_glm_anova_pt1/knitted_workshop/11_glm_anova_pt1.html)
+[![](images/glm_anova_pt1.png){width=75%}](./Wk4-11_glm_anova_pt1/knitted_workshop/11_glm_anova_pt1.html)
 
 &nbsp;  
 
@@ -171,7 +171,7 @@ In part two we will explore Analysis of Covariance (ANCOVA). We will also examin
 
 &nbsp;  
 
-[![](images/glm_anova_pt2.png){width=75%}](../Wk4-12_glm_anova_pt2/knitted_workshop/12_glm_anova_pt2.html)
+[![](images/glm_anova_pt2.png){width=75%}](./Wk4-12_glm_anova_pt2/knitted_workshop/12_glm_anova_pt2.html)
 
 &nbsp;  
 
@@ -191,7 +191,7 @@ In this first part we will see how mixed models combine aspects of linear regres
 
 &nbsp;  
 
-[![](images/mixed_models_pt1.png){width=75%}](../Wk5-15_mixed_models_pt1/knitted_workshop/15_mixed_models_pt1.html)
+[![](images/mixed_models_pt1.png){width=75%}](./Wk5-15_mixed_models_pt1/knitted_workshop/15_mixed_models_pt1.html)
 
 &nbsp;  
 
@@ -207,7 +207,7 @@ In the second part we will examine mixed models for factorial designs, and explo
 
 &nbsp;  
 
-[![](images/mixed_models_pt2.png){width=75%}](../Wk5-16_mixed_models_pt2/knitted_workshop/16_mixed_models_pt2.html)
+[![](images/mixed_models_pt2.png){width=75%}](./Wk5-16_mixed_models_pt2/knitted_workshop/16_mixed_models_pt2.html)
 
 &nbsp;  
 
@@ -222,7 +222,7 @@ In the final part we will generate a report in `.html` format using R Markdown. 
 
 &nbsp;  
 
-[![](images/introduction_to_r_markdown.png){width=75%}](../Wk5-19_introduction_to_r_markdown/knitted_workshop/19_introduction_to_r_markdown.html)
+[![](images/introduction_to_r_markdown.png){width=75%}](./Wk5-19_introduction_to_r_markdown/knitted_workshop/19_introduction_to_r_markdown.html)
 
 &nbsp;  
 
@@ -241,7 +241,7 @@ This workshop covers experimental power (and why it is important). One of the in
 
 &nbsp;  
 
-[![](images/experimental_power.png){width=75%}](../Wk6-13_experimental_power/knitted_workshop/13_experimental_power.html)
+[![](images/experimental_power.png){width=75%}](./Wk6-13_experimental_power/knitted_workshop/13_experimental_power.html)
 
 &nbsp; &nbsp;  
 
@@ -255,7 +255,7 @@ This workshop provides a very brief overview of open source software, the use of
 
 &nbsp;  
 
-[![](images/open_source.png){width=75%}](../Wk6-24_open_source/knitted_workshop/24_open_source.html)
+[![](images/open_source.png){width=75%}](./Wk6-24_open_source/knitted_workshop/24_open_source.html)
 
 &nbsp; &nbsp;  
 
@@ -271,7 +271,7 @@ This workshop will introduce you to Binder, a tool for allowing you to reproduce
 
 &nbsp;  
 
-[![](images/binder.png){width=75%}](../23_introduction_to_binder/knitted_workshop/23_introduction_to_binder.html)
+[![](images/binder.png){width=75%}](./23_introduction_to_binder/knitted_workshop/23_introduction_to_binder.html)
 
 &nbsp;  
 

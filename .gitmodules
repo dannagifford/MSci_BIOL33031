@@ -1,0 +1,15 @@
+[submodule "workshops/Wk1-01_open_research_and_reproducibility"]
+	path = workshops/Wk1-01_open_research_and_reproducibility
+	url = https://github.com/dannagifford/Wk1-01_open_research_and_reproducibility
+[submodule "workshops/Wk1-02_starting_with_r"]
+	path = workshops/Wk1-02_starting_with_r
+	url = https://github.com/dannagifford/Wk1-02_starting_with_r
+[submodule "workshops/Wk2-03_data_wrangling"]
+	path = workshops/Wk2-03_data_wrangling
+	url = https://github.com/dannagifford/Wk2-03_data_wrangling
+[submodule "workshops/Wk2-04_summarising_your_data"]
+	path = workshops/Wk2-04_summarising_your_data
+	url = https://github.com/dannagifford/Wk2-04_summarising_your_data
+[submodule "workshops/Wk2-06_data_visualisation"]
+	path = workshops/Wk2-06_data_visualisation
+	url = https://github.com/dannagifford/Wk2-06_data_visualisation

@@ -45,8 +45,19 @@ This module will consist of workshops spread across 6 weeks - each workshop will
 5. Data Simulation and Advanced Data Visualisation
 6. Reproducible Computational Environments and Presentations
 -->
-## Unit format
+### Reference Materials
+These materials are listed as resources to consult if you need further help understanding the material. It is not expected that you read them chapter-by-chapter.
+
+* G. Grolemund, & H. Wickham (2017) [R for Data Science](https://r4ds.had.co.nz)  
+* P. Higgins (2023) [Reproducible Medical Research with R](https://bookdown.org/pdr_higgins/rmrwr/)  
+* Yihui X., J. J. Allaire & G. Grolemund (2023) [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)  
+
+
+### Unit format
 This unit will be run via a flipped classroom model. This means you need to go through each of the workshops **before** the associated live computer cluster session. So make sure you've viewed **all** of the week's content before our first scheduled computer cluster session. You will have an opportunity to work on the activities and/or ask questions about each workshop during the live computer cluster sessions.  All the videos in these workshops are best viewed in full-screen mode at 1080 resolution. Audio was recorded with a podcasting microphone, so are best listened to with headphones. YouTube generates subtitles automatically, so please turn those on if you'd find them useful. 
+
+### Feedback methods
+During the hands-on coding sessions, students will receive formative feedback associatedwith each of the practical problems that they will be engaged with. There is one assignment associated with this unit. The full details of this (plus hand in date) will be posted on Blackboard.
 
 ## Aims
 The unit aims to increase your understanding of the following:
@@ -57,9 +68,7 @@ The unit aims to increase your understanding of the following:
 * To provide you with the experience of advanced decision-making in the application of different statistical tests to different research questions.
 * To provide you, working in small groups, with the experience of using and programming in R for reproducible data analysis.
 
-&nbsp; &nbsp;  
-
-## Intended Learning Objectives
+### Learning Objectives
 
 Knowledge and understanding
 
@@ -81,24 +90,12 @@ Transferable skills and personal qualities
 * Data presentation.
 * Time management.
 
-&nbsp; &nbsp;  
-
-## Recommended Reading
-Grolemund, G, & Wickham, H. (2017). R for Data Science, O’Reilly. (https://r4ds.had.co.nz)
-
-&nbsp; &nbsp;
-  
-## Employability Skills
+### Employability Skills
 * Analytical skills: You will learn the fundamentals of coding and constructing statistical models in R.
 * Innovation/creativity: You will be encouraged to enhance your coding skills and apply them to novel research challenges, including the interpretation of extensive datasets.
 * Project management: You will develop the ability to create individual tasks related to data analysis and reporting, including data tidying/wrangling, data visualization, statistical modeling, and the creation of reproducible research reports using R Markdown.
 * Problem-solving: You will hone your coding abilities and devise solutions for every phase of the reproducible research process.
 * Written communication: You will produce coursework using R Markdown, which integrates code, output, and narrative to produce documents that can be reproduced.
-
-&nbsp; &nbsp;
-
-## Feedback methods
-During the hands-on coding sessions, students will receive formative feedback associatedwith each of the practical problems that they will be engaged with. There is one assignment associated with this unit. The full details of this (plus hand in date) will be posted on Blackboard.
 
 
 
@@ -297,10 +294,10 @@ This workshop will introduce you to Binder, a tool for allowing you to reproduce
 # Technical Details
 Original material: The material in this workshop were originally created using open source where possible using an [Entroware Apollo laptop](https://www.entroware.com/store/) running [GNU/Linux distro Ubuntu 20.04 LTS (Focal Fossa)](https://releases.ubuntu.com/20.04/).  The audio was captured with a [Fifine USB Podcasting microphone](https://www.amazon.co.uk/Condenser-Microphone-Recording-Interface-Power-K669/dp/B01N034RTC/ref=sr_1_1_sspa?crid=141Z8ED4VGCVD&dchild=1&keywords=fifine+usb+podcast+condenser+microphone&qid=1594989611&sprefix=fifne+usb%2Caps%2C162&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFFMzAxOE5DUDJIREwmZW5jcnlwdGVkSWQ9QTA4MzA2NjIxVU40MlhNMFNCTDhWJmVuY3J5cHRlZEFkSWQ9QTA5NDI2OTQxOFY0R002UVJBS1AzJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==) and the video with a [Razer Kiyo webcam](https://www.amazon.co.uk/Razer-Streaming-Adjustable-Brightness-Microphone/dp/B076QK6489/ref=sr_1_3?dchild=1&keywords=razer+kiyo&qid=1594989677&sr=8-3). The audio and video were recorded using [Open Broadcast Software](https://obsproject.com/) and edited using [Shotcut](https://shotcut.org/). The R code was written using [R 3.6.3](https://www.r-project.org/), and run in the [RStudio Desktop IDE](https://rstudio.com/products/rstudio/download/) version 1.3.959. Ubuntu 20.04 LTS (Focal Fossa), OBS, Shotcut, R, and RStudio Desktop are all [open source](https://en.wikipedia.org/wiki/Open-source_software).
 
-Updates in 2023: The unit was updated using R 4.2.2 using Ubuntu 20.04.5 LTS (Focal Fossa).
-
 The structure for this unit was inspired by the [Sharing At Short Notice](https://rstudio.com/resources/webinars/sharing-on-short-notice-how-to-get-your-materials-online-with-r-markdown/) webinar by Alison Hill and Desirée De Leon.
 
 The repo for each workshop can be accessed via the 'Improve this Workshop' link at the bottom of each workshop page. The workshops and this website were all written using [R Markdown](https://rmarkdown.rstudio.com/) and the website is hosted on [GitHub Pages](https://www.github.com/) via deployment from [this GitHub repository](https://github.com/dannagifford/MSci_BIOL33031), which was forked from [the original repository](https://github.com/ajstewartlang/MSci_BIOL33031).
 
-The source code for each of the Workshops above is licensed under the [MIT license](https://opensource.org/licenses/MIT), and the lecture content under [CC-BY](https://creativecommons.org/licenses/by/4.0/). 
+The source code for each of the Workshops above is licensed under the [MIT license](https://opensource.org/licenses/MIT), and the lecture content under [CC-BY](https://creativecommons.org/licenses/by/4.0/).
+
+Updates in 2023: The unit was updated using Ubuntu 20.04.5 LTS (Focal Fossa), including R 4.2.2, [gedit](https://wiki.gnome.org/Apps/Gedit) (3.36.2) and various Unix utilities ([grep](https://www.gnu.org/software/grep/), [sed](https://www.gnu.org/software/sed/)) run using [BASH](https://www.gnu.org/software/bash/).

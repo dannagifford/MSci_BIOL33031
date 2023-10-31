@@ -40,6 +40,3 @@
 [submodule "workshops/Wk6-24_open_source"]
 	path = workshops/Wk6-24_open_source
 	url = https://github.com/dannagifford/Wk6-24_open_source
-[submodule "workshops/Wk6-open_research_movement"]
-	path = workshops/Wk6-open_research_movement
-	url = https://github.com/dannagifford/Wk6-open_research_movement

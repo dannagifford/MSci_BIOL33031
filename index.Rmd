@@ -43,7 +43,7 @@ This unit will consist of workshops spread across 6 weeks - each workshop will i
 [Workshop: Experimental Power](./workshops/Wk6-13_experimental_power/knitted_workshop/13_experimental_power.html)  
 [Workshop: The Open Research Movement](./workshops/Wk6-open_research_movement/knitted_workshop/open_research_movement.html)  
 [Workshop: ChatGPT](./workshops/Wk6-ChatGPT/knitted_workshop/ChatGPT.html)  
-<!--[Workshop: Binder](./23_introduction_to_binder/knitted_workshop/23_introduction_to_binder.html)-->
+[Workshop: Binder](./23_introduction_to_binder/knitted_workshop/23_introduction_to_binder.html)
 -->
 
 <!--1. Reproducibility and R

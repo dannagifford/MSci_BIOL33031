@@ -118,6 +118,15 @@ In this first part, we will explore the key concepts in open research, and talk 
 &nbsp; &nbsp;  
 
 
+## Open Source Software
+
+This workshop provides a very brief overview of open source software, the use of which is arguably key for researchers to be able to adopt open and reproducible research workflows. To view this part, just click on the link or image below.
+
+[Workshop: Open source software   
+![](images/open_source.png){width=50%}](./workshops/Wk6-24_open_source/knitted_workshop/24_open_source.html)
+
+&nbsp; &nbsp;  
+
 
 ## Starting with R and RStudio Desktop
 
@@ -135,8 +144,9 @@ There are three parts to this week's workshop The first part is on Data Wranglin
 
 ## Data Wrangling
 
-The first part will introduce you to a number of key packages known as the `tidyverse` These packages contain a large number of functions for working with data in tidy format. By making our data wrangling reproducible (i.e., by coding it in R), we can easily re-run this stage of our analysis pipeline as new data gets added. Reproducibility of the data wrangling stage is a key part of the analysis process and often gets overlooked in terms of needing to ensure it is reproducible. To go to this first part, just click on the image below.
+Data wrangling plays a crucial role in reproducible data analysis as it ensures the integrity and consistency of the dataset, enabling researchers and others following up on their work to generate trustworthy and replicable results. However, it often remains overlooked due to its time-consuming nature and the temptation to focus primarily on downstream analysis, potentially compromising the reproducibility and reliability of the entire data science workflow.
 
+The first part will introduce you to a number of key packages known as the `tidyverse` These packages contain a large number of functions for working with data in tidy format. By making our data wrangling reproducible (i.e., by coding it in R), we can easily re-run this stage of our analysis pipeline as new data gets added.
 
 [Workshop: Data Wrangling  
 ![](images/data_wrangling.png){width=50%}](./workshops/Wk2-03_data_wrangling/knitted_workshop/03_data_wrangling.html)
@@ -145,8 +155,7 @@ The first part will introduce you to a number of key packages known as the `tidy
 
 ## Summarising Your Data
 
-Once you have completed this first part and have your R script up and running, click on the image below for the second part where you'll learn how to aggregate and summarise your data.  
-
+Once you have completed this first part and have your R script up and running, click on the link or image below for the second part where you'll learn how to aggregate and summarise your data.  
 
 
 [Workshop: Summarising your data  
@@ -157,7 +166,7 @@ Once you have completed this first part and have your R script up and running, c
 
 ## Data Visualisation
 
-In part three, we will explore the basics of Data Visualization using R. You'll have the opportunity to write an R script on your own computer that will generate some nice data visualisations. Just click on the image below to start.  
+In part three, we will explore the basics of Data Visualization using R. You'll have the opportunity to write an R script on your own computer that will generate some nice data visualisations. Using R for data visualisation makes reproducibility easier by making the path from raw data to figures completely transparent. An added advantage is the ability to regenerate figures as new data becomes available. R's many visualization tools and its compatibility with reproducible documents, like R Markdown (which we will cover later), also help keep research transparent.
 
 [Workshop: Data visualisation   
 ![](images/data_vis.png){width=50%}](./workshops/Wk2-06_data_visualisation/knitted_workshop/06_data_visualisation)
@@ -166,12 +175,15 @@ In part three, we will explore the basics of Data Visualization using R. You'll 
 
 # Week 3
 
-There are two parts to this week's workshop. In the first part we will examine Simple Linear Regression (where you build a linear model to predict an outcome variable on the basis of a predictor variable). In the second part we will move onto Multiple Linear Regression (where you build a linear model to predict an outcome variable on the basis of a number of predictor variables).
+Choosing the right statistical model is crucial for reproducibility because it directly affects the validity of research findings. An appropriate model ensures that the data analysis accurately reflects the underlying relationships in the data, reducing the risk of erroneous conclusions. Additionally, a well-chosen model makes it easier for others to replicate the research, enhancing transparency and the ability to validate results independently.
+
+Over the next several workshops, we will look at how to use R to perform different analyses commonly used biology, biomedical sciences and psychology. This will give you the opportunity to practice performing analyses you may already be familiar with from other software packages, but in a way that facilitates incorporation into an open and reproducible workflow.
+
+We will first examine Simple Linear Regression (where you build a linear model to predict an outcome variable on the basis of a predictor variable). Next, we will move onto Multiple Linear Regression (where you build a linear model to predict an outcome variable on the basis of a number of predictor variables).
 
 ## Regression Part 1
 
 In part one we will explore Simple Regression in the context of the General Linear Model (GLM). You will also have the opportunity to build some regression models where you predict an outcome variable on the basis of one predictor. You will also learn how to run model diagnostics to ensure you are not violating any key assumptions of regression.
-
 
 [Workshop: Regression Part 1   
 ![](images/glm_regression_pt1.png){width=50%}](./workshops/Wk3-09_glm_regression_pt1/knitted_workshop/09_glm_regression_pt1.html)
@@ -189,7 +201,7 @@ In part two we will explore Multiple Regression in the context of the General Li
 
 # Week 4
 
-This week we will cover Analysis of Variance (ANOVA), Analysis of Covariance (ANCOVA), and show how they are both special cases of the General Linear Model.
+This week we will cover how to perform Analysis of Variance (ANOVA), Analysis of Covariance (ANCOVA), and show how they are both special cases of the General Linear Model covered in the previous workshops.
 
 ## ANOVA Part 1
 
@@ -200,7 +212,7 @@ In part one we will explore Analysis of Variance (ANOVA) in the context of model
 
 &nbsp;&nbsp;
 
-## ANOVA Part 2
+## ANOVA Part 2 (ANCOVA)
 
 In part two we will explore Analysis of Covariance (ANCOVA). We will also examine ANOVA and ANCOVA as special cases of regression and see how we can build both via a linear model. By then doing this yourselves, you wil hopefully be convinced that ANOVA and regression are really the same thing.
 
@@ -212,8 +224,9 @@ In part two we will explore Analysis of Covariance (ANCOVA). We will also examin
 
 # Week 5
 
-There are three parts to this week's content. The first two part focus on Mixed Models, while the third focuses on using R Markdown. Your assignment for this unit needs to be created using R Markdown. You will then `knit` your R Markdown file to generate a `.html` file. It is this `.html` file that you need to submit as your assignment.
+There are three parts to this week's content. The first part introduces R Markdown, a tool for incorporating R analyses directly into documents. We will then look at Binder as a tool for making reproducible analysis environments. Finally, we will discuss experimental power, and important element in the design and analysis of experiments.
 
+<!--
 ## Mixed Models Part 1
 
 In this first part we will see how mixed models combine aspects of linear regression (for model fitting) while circumventing the need for observations to be independent of each other. We will also examine how we model the influence of random effects in our mixed models, and see how mixed models can cope with unbalanced designs and missing data.
@@ -228,7 +241,6 @@ In this first part we will see how mixed models combine aspects of linear regres
 
 In the second part we will examine mixed models for factorial designs, and explore how to model non-continuous dependent variables (e.g., binary and ordinal outcome variables) using the `glmer()` family of mixed models.
 
-
 &nbsp;  
 
 [Workshop: Mixed-effects models Part 2   
@@ -238,24 +250,31 @@ In the second part we will examine mixed models for factorial designs, and explo
 
 
 &nbsp;&nbsp;
+-->
 
 ## R Markdown
-In the final part we will generate a report in `.html` format using R Markdown. Reports written using R Markdown allow you to combine narrative that you've written alongside R code chunks, and the output associated with those code chunks all in one `knitted` document. The assignment for this unit needs to be produced using R Markdown and you need to submit the `.html` file you generate using R Markdown via Blackboard.
+
+R Markdown is a document format that combines code, text, and output (such as tables and graphs) into a single document (`.html`, `.pdf`, or `.docx`) using the R language. It is widely used in data analysis and reporting. R Markdown is a valuable tool for reproducible data science as it allows researchers to seamlessly integrate code, data, and narrative explanations into a single document. This not only enhances the transparency and documentation of the analysis process but also enables others to easily replicate and build upon the work, promoting reproducibility in data-driven research.
+
+Reports written using R Markdown allow you to combine narrative that you've written alongside R code chunks, and the output associated with those code chunks all in one `knitted` document. The final assessment for this unit needs to be produced using R Markdown, and you need to submit the `.html` file you generate using R Markdown via Blackboard. This workshop will teach you how to do just that.
 
 &nbsp;  
 
 [Workshop: Introduction to R Markdown   
 ![](images/introduction_to_r_markdown.png){width=50%}](./workshops/Wk5-19_introduction_to_r_markdown/knitted_workshop/19_introduction_to_r_markdown.html)
 
-
 &nbsp;&nbsp;
 
 
-# Week 6
+## Binder
+This workshop will introduce you to Binder, a tool for allowing you to reproduce your computational environment, as well as your code and data, and share all of these with a collaborator via a simple web link.
+
+[Workshop: Binder   
+![](images/binder.png){width=50%}](./23_introduction_to_binder/knitted_workshop/23_introduction_to_binder.html)
 
 ## Experimental Power
 
-This workshop covers experimental power (and why it is important). One of the insights revealed by the "replication crisis" is that very often research is underpowered for the effect size of interest (i.e., even if the effect is there, your experiment is unlikely to find it). Many of the issues stem from researchers not spending sufficient time considering the power aspects of their research design. In this workshop, we will look at an overview of some of the issues - just click on the image below to view this:
+This workshop covers experimental power (and why it is important). One of the insights revealed by the "replication crisis" is that very often research is underpowered for the effect size of interest (i.e., even if the effect is there, your experiment is unlikely to find it). Many of the issues stem from researchers not spending sufficient time considering the power aspects of their research design. In this workshop, we will look at an overview of some of the issues - just click on the link or image below to view this:
 
 
 [Workshop: Experimental Power   
@@ -263,36 +282,46 @@ This workshop covers experimental power (and why it is important). One of the in
 
 &nbsp; &nbsp;  
 
-## Open Source Software
+# Week 6
+In this final week, we will revisit the Open Research Movement, exploring how its principles have influenced scientific practices, and its significance in fostering transparency and collaboration within the research community. We will also look at the role of ChatGPT in analysing data in R and in reproducible data science in general.
 
-This workshop provides a very brief overview of open source software, the use of which is arguably key for researchers to be able to adopt open and reproducible research workflows. To view this part, just click on the image below.
+## The Open Research Movement
+In this last session on the Open Research Movement, we will focus on practical approaches and tools available for to conducting open science--including those available at The University of Manchester.
 
-[Workshop: Open source software   
-![](images/open_source.png){width=50%}](./workshops/Wk6-24_open_source/knitted_workshop/24_open_source.html)
+
+[Workshop: The Open Research Movement   
+![](images/open_research_movement.png){width=50%}](./workshops/Wk6-open_research_movement/knitted_workshop/open_research_movement.html)
+
+
+## ChatGPT for R and Reproducible Data Science
+We will also have a brief look at ChatGPT, a large language model (LLM) powered artificial intelligence (AI) tool that is changing the way we synthesise, process, analyse and communicate information and data.
 
 &nbsp; &nbsp;  
 
-</center>
+[Workshop: ChatGPT   
+![](images/open_research_movement.png){width=50%}](./workshops/Wk6-open_research_movement/knitted_workshop/open_research_movement.html)
+
+&nbsp; &nbsp;  
+
+# Bonus content
+
+The 'bonus content' material included below is included as some of you may find it beneficial when conducting your MSci projects.
+
+## Mixed-Effects Models
+
+In this first part we will see how mixed models combine aspects of linear regression (for model fitting) while circumventing the need for observations to be independent of each other. We will also examine how we model the influence of random effects in our mixed models, and see how mixed models can cope with unbalanced designs and missing data.
+
+[Workshop: Mixed-effects models Part 1   
+![](images/mixed_models_pt1.png){width=50%}](./workshops/Wk5-15_mixed_models_pt1/knitted_workshop/15_mixed_models_pt1.html)
+
+In the second part we will examine mixed models for factorial designs, and explore how to model non-continuous dependent variables (e.g., binary and ordinal outcome variables) using the `glmer()` family of mixed models.  
+
+[Workshop: Mixed-effects models Part 2   
+![](images/mixed_models_pt2.png){width=50%}](./workshops/Wk5-16_mixed_models_pt2/knitted_workshop/16_mixed_models_pt2.html)
+
 
 &nbsp;&nbsp;
-<!--
-## Binder
-
-This workshop will introduce you to Binder, a tool for allowing you to reproduce your computational environment, as well as your code and data, and share all of these with a collaborator via a simple web link.
-
- <center>
-
-&nbsp;  
-
-[Workshop: Binder   
-![](images/binder.png){width=50%}](./23_introduction_to_binder/knitted_workshop/23_introduction_to_binder.html)
-
-&nbsp;  
-
-</center>
-
 &nbsp;&nbsp;
--->
 
 # Technical Details
 Original material: The material in this workshop were originally created using open source where possible using an [Entroware Apollo laptop](https://www.entroware.com/store/) running [GNU/Linux distro Ubuntu 20.04 LTS (Focal Fossa)](https://releases.ubuntu.com/20.04/).  The audio was captured with a [Fifine USB Podcasting microphone](https://www.amazon.co.uk/Condenser-Microphone-Recording-Interface-Power-K669/dp/B01N034RTC/ref=sr_1_1_sspa?crid=141Z8ED4VGCVD&dchild=1&keywords=fifine+usb+podcast+condenser+microphone&qid=1594989611&sprefix=fifne+usb%2Caps%2C162&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFFMzAxOE5DUDJIREwmZW5jcnlwdGVkSWQ9QTA4MzA2NjIxVU40MlhNMFNCTDhWJmVuY3J5cHRlZEFkSWQ9QTA5NDI2OTQxOFY0R002UVJBS1AzJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==) and the video with a [Razer Kiyo webcam](https://www.amazon.co.uk/Razer-Streaming-Adjustable-Brightness-Microphone/dp/B076QK6489/ref=sr_1_3?dchild=1&keywords=razer+kiyo&qid=1594989677&sr=8-3). The audio and video were recorded using [Open Broadcast Software](https://obsproject.com/) and edited using [Shotcut](https://shotcut.org/). The R code was written using [R 3.6.3](https://www.r-project.org/), and run in the [RStudio Desktop IDE](https://rstudio.com/products/rstudio/download/) version 1.3.959. Ubuntu 20.04 LTS (Focal Fossa), OBS, Shotcut, R, and RStudio Desktop are all [open source](https://en.wikipedia.org/wiki/Open-source_software).

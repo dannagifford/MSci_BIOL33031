@@ -47,3 +47,4 @@
 [submodule "workshops/Wk6-ChatGPT"]
 	path = workshops/Wk6-ChatGPT
 	url = https://github.com/dannagifford/Wk6-ChatGPT
+        branch = main

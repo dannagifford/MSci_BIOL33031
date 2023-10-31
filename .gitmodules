@@ -43,3 +43,4 @@
 [submodule "workshops/Wk6-open_research_movement"]
 	path = workshops/Wk6-open_research_movement
 	url = https://github.com/dannagifford/Wk6-open_research_movement
+        branch = main

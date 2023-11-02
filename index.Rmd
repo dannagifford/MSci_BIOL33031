@@ -108,7 +108,7 @@ Transferable skills and personal qualities
 
 # Week 1
 
-There are two parts to this week's workshop. The first is on Open Research and Reproducibility, the second on Starting with R and RStudio Desktop. Please make sure you complete both parts before the first timetabled session. 
+There are three parts to this week's workshop. The first is on Open Research and Reproducibility, the second is a brief introduction to Open Source Software, and the final is our first encouter with R and RStudio Desktop.
 
 ## Open Research and Reproducibility
 
@@ -177,11 +177,11 @@ In part three, we will explore the basics of Data Visualization using R. You'll 
 
 # Week 3
 
-Choosing the right statistical model is crucial for reproducibility because it directly affects the validity of research findings. An appropriate model ensures that the data analysis accurately reflects the underlying relationships in the data, reducing the risk of erroneous conclusions. Additionally, a well-chosen model makes it easier for others to replicate the research, enhancing transparency and the ability to validate results independently.
+Choosing the right statistical model is crucial for reproducibility because it directly affects the validity of research findings. An appropriate model ensures that the data analysis accurately reflects the underlying relationships in the data, reducing the risk of erroneous conclusions. Additionally, a well-chosen model makes it easier for others to replicate the research, enhancing transparency and the ability to validate results independently. We will look at how to use R to perform different analyses commonly used biology, biomedical sciences and psychology. This will give you the opportunity to practice performing analyses you may already be familiar with from other software packages, but in a way that facilitates incorporation into an open and reproducible workflow.
 
-Over the next several workshops, we will look at how to use R to perform different analyses commonly used biology, biomedical sciences and psychology. This will give you the opportunity to practice performing analyses you may already be familiar with from other software packages, but in a way that facilitates incorporation into an open and reproducible workflow.
+We will first examine Simple Linear Regression (where you build a linear model to predict an outcome variable on the basis of a predictor variable). Next, we will move onto Multiple Linear Regression (where you build a linear model to predict an outcome variable on the basis of a number of predictor variables). And in the following weeks, we will look at how linear models relate to ANOVA tests you may already be familiar with, as well as introducing extensions to linear models.
 
-We will first examine Simple Linear Regression (where you build a linear model to predict an outcome variable on the basis of a predictor variable). Next, we will move onto Multiple Linear Regression (where you build a linear model to predict an outcome variable on the basis of a number of predictor variables).
+This week, we will also introduce R Markdown for formatting documents. Your assignment for this unit needs to be created using R Markdown. You will then knit your R Markdown file to generate a .html file. It is this .html file that you need to submit as your assignment.
 
 ## Regression Part 1
 
@@ -200,6 +200,20 @@ In part two we will explore Multiple Regression in the context of the General Li
 ![](images/glm_regression_pt2.png){width=50%}](./workshops/Wk3-10_glm_regression_pt2/knitted_workshop/10_glm_regression_pt2.html)
 
 &nbsp;&nbsp;
+
+## R Markdown
+
+R Markdown is a document format that combines code, text, and output (such as tables and graphs) into a single document (`.html`, `.pdf`, or `.docx`) using the R language. It is widely used in data analysis and reporting. R Markdown is a valuable tool for reproducible data science as it allows researchers to seamlessly integrate code, data, and narrative explanations into a single document. This not only enhances the transparency and documentation of the analysis process but also enables others to easily replicate and build upon the work, promoting reproducibility in data-driven research.
+
+Reports written using R Markdown allow you to combine narrative that you've written alongside R code chunks, and the output associated with those code chunks all in one `knitted` document. The final assessment for this unit needs to be produced using R Markdown, and you need to submit the `.html` file you generate using R Markdown via Blackboard. This workshop will teach you how to do just that.
+
+&nbsp;  
+
+[Workshop: Introduction to R Markdown   
+![](images/introduction_to_r_markdown.png){width=50%}](./workshops/Wk5-19_introduction_to_r_markdown/knitted_workshop/19_introduction_to_r_markdown.html)
+
+&nbsp;&nbsp;
+
 
 # Week 4
 
@@ -226,9 +240,9 @@ In part two we will explore Analysis of Covariance (ANCOVA). We will also examin
 
 # Week 5
 
-There are three parts to this week's content. The first part introduces R Markdown, a tool for incorporating R analyses directly into documents. We will then look at Binder as a tool for making reproducible analysis environments. Finally, we will discuss experimental power, and important element in the design and analysis of experiments.
+This week we will focus on mixed-effects models, which are an extension on linear models. We will also look at how to model different types of data.
+&nbsp;&nbsp;
 
-<!--
 ## Mixed Models Part 1
 
 In this first part we will see how mixed models combine aspects of linear regression (for model fitting) while circumventing the need for observations to be independent of each other. We will also examine how we model the influence of random effects in our mixed models, and see how mixed models can cope with unbalanced designs and missing data.
@@ -248,31 +262,24 @@ In the second part we will examine mixed models for factorial designs, and explo
 [Workshop: Mixed-effects models Part 2   
 ![](images/mixed_models_pt2.png){width=50%}](./workshops/Wk5-16_mixed_models_pt2/knitted_workshop/16_mixed_models_pt2.html)
 
-&nbsp;  
-
-
-&nbsp;&nbsp;
--->
-
-## R Markdown
-
-R Markdown is a document format that combines code, text, and output (such as tables and graphs) into a single document (`.html`, `.pdf`, or `.docx`) using the R language. It is widely used in data analysis and reporting. R Markdown is a valuable tool for reproducible data science as it allows researchers to seamlessly integrate code, data, and narrative explanations into a single document. This not only enhances the transparency and documentation of the analysis process but also enables others to easily replicate and build upon the work, promoting reproducibility in data-driven research.
-
-Reports written using R Markdown allow you to combine narrative that you've written alongside R code chunks, and the output associated with those code chunks all in one `knitted` document. The final assessment for this unit needs to be produced using R Markdown, and you need to submit the `.html` file you generate using R Markdown via Blackboard. This workshop will teach you how to do just that.
-
-&nbsp;  
-
-[Workshop: Introduction to R Markdown   
-![](images/introduction_to_r_markdown.png){width=50%}](./workshops/Wk5-19_introduction_to_r_markdown/knitted_workshop/19_introduction_to_r_markdown.html)
-
 &nbsp;&nbsp;
 
 
-## Binder
+<!--## Binder
 This workshop will introduce you to Binder, a tool for allowing you to reproduce your computational environment, as well as your code and data, and share all of these with a collaborator via a simple web link.
 
 [Workshop: Binder   
 ![](images/binder.png){width=50%}](./23_introduction_to_binder/knitted_workshop/23_introduction_to_binder.html)
+-->
+# Week 6
+In this final week, we will revisit the Open Research Movement, exploring how its principles have influenced scientific practices, and its significance in fostering transparency and collaboration within the research community. We will discuss experimental power, and important element in the design and analysis of experiments. Finally, we will also look at the role of ChatGPT in analysing data in R and in reproducible data science in general.
+
+## The Open Research Movement
+In this last session on the Open Research Movement, we will focus on practical approaches and tools available for to conducting open science--including those available at The University of Manchester.
+
+
+[Workshop: The Open Research Movement   
+![](images/open_research_movement.png){width=50%}](./workshops/Wk6-open_research_movement/knitted_workshop/open_research_movement.html)
 
 ## Experimental Power
 
@@ -284,16 +291,6 @@ This workshop covers experimental power (and why it is important). One of the in
 
 &nbsp; &nbsp;  
 
-# Week 6
-In this final week, we will revisit the Open Research Movement, exploring how its principles have influenced scientific practices, and its significance in fostering transparency and collaboration within the research community. We will also look at the role of ChatGPT in analysing data in R and in reproducible data science in general.
-
-## The Open Research Movement
-In this last session on the Open Research Movement, we will focus on practical approaches and tools available for to conducting open science--including those available at The University of Manchester.
-
-
-[Workshop: The Open Research Movement   
-![](images/open_research_movement.png){width=50%}](./workshops/Wk6-open_research_movement/knitted_workshop/open_research_movement.html)
-
 
 ## ChatGPT for R and Reproducible Data Science
 We will also have a brief look at ChatGPT, a large language model (LLM) powered artificial intelligence (AI) tool that is changing the way we synthesise, process, analyse and communicate information and data.
@@ -302,25 +299,6 @@ We will also have a brief look at ChatGPT, a large language model (LLM) powered 
 
 [Workshop: ChatGPT   
 ![](images/ChatGPT.png){width=50%}](./workshops/Wk6-ChatGPT/knitted_workshop/ChatGPT.html)
-
-&nbsp; &nbsp;  
-
-# Bonus content
-
-The 'bonus content' material included below is included as some of you may find it beneficial when conducting your MSci projects.
-
-## Mixed-Effects Models
-
-In this first part we will see how mixed models combine aspects of linear regression (for model fitting) while circumventing the need for observations to be independent of each other. We will also examine how we model the influence of random effects in our mixed models, and see how mixed models can cope with unbalanced designs and missing data.
-
-[Workshop: Mixed-effects models Part 1   
-![](images/mixed_models_pt1.png){width=50%}](./workshops/Wk5-15_mixed_models_pt1/knitted_workshop/15_mixed_models_pt1.html)
-
-In the second part we will examine mixed models for factorial designs, and explore how to model non-continuous dependent variables (e.g., binary and ordinal outcome variables) using the `glmer()` family of mixed models.  
-
-[Workshop: Mixed-effects models Part 2   
-![](images/mixed_models_pt2.png){width=50%}](./workshops/Wk5-16_mixed_models_pt2/knitted_workshop/16_mixed_models_pt2.html)
-
 
 &nbsp;&nbsp;
 &nbsp;&nbsp;

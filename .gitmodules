@@ -1,6 +1,7 @@
 [submodule "workshops/Wk1-01_open_research_and_reproducibility"]
 	path = workshops/Wk1-01_open_research_and_reproducibility
 	url = https://github.com/dannagifford/Wk1-01_open_research_and_reproducibility
+        branch = main
 [submodule "workshops/Wk1-02_starting_with_r"]
 	path = workshops/Wk1-02_starting_with_r
 	url = https://github.com/dannagifford/Wk1-02_starting_with_r
